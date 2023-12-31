@@ -1,9 +1,5 @@
 ﻿@model IEnumerable<Category>
-@if (TempData["success"] != null)
-{
-    <h4 class="text-danger">@TempData["success"]</h4>
-}
-
+<partial name="_Notification"/>
 
 <h1 class="text-center mb-3">Kategoriler Sayfası</h1>
 <a asp-controller="Category" asp-action="Create" class="btn btn-success mb-2">Create a New Category</a>
