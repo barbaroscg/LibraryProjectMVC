@@ -2,7 +2,7 @@
 using Kitaplik.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Kitaplik.Data
+namespace Kitaplik.DataAccess.Data
 {
     public class ApplicationDbContext: DbContext
     {

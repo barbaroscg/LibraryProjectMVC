@@ -1,4 +1,4 @@
-﻿using Kitaplik.Data;
+﻿using Kitaplik.DataAccess.Data;
 using Kitaplik.Models;
 using Microsoft.AspNetCore.Mvc;
 

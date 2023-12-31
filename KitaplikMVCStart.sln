@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitaplik", "Kitaplik\Kitaplik.csproj", "{FEACAC98-7C14-4712-8F6D-9A5006A065A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitaplik", "Kitaplik\Kitaplik.csproj", "{FEACAC98-7C14-4712-8F6D-9A5006A065A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitaplik.DataAccess", "Kitaplik.DataAccess\Kitaplik.DataAccess.csproj", "{D1B94F00-7B93-4AEA-89C0-7EBD85BBF2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitaplik.Models", "Kitaplik.Models\Kitaplik.Models.csproj", "{D64C40BC-7D98-4FC0-8DCB-862E2315B8C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitaplik.Utility", "Kitaplik.Utility\Kitaplik.Utility.csproj", "{326FB5A9-1A79-47AB-8148-264736246663}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{FEACAC98-7C14-4712-8F6D-9A5006A065A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEACAC98-7C14-4712-8F6D-9A5006A065A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEACAC98-7C14-4712-8F6D-9A5006A065A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B94F00-7B93-4AEA-89C0-7EBD85BBF2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B94F00-7B93-4AEA-89C0-7EBD85BBF2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B94F00-7B93-4AEA-89C0-7EBD85BBF2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B94F00-7B93-4AEA-89C0-7EBD85BBF2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64C40BC-7D98-4FC0-8DCB-862E2315B8C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64C40BC-7D98-4FC0-8DCB-862E2315B8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64C40BC-7D98-4FC0-8DCB-862E2315B8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64C40BC-7D98-4FC0-8DCB-862E2315B8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326FB5A9-1A79-47AB-8148-264736246663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326FB5A9-1A79-47AB-8148-264736246663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326FB5A9-1A79-47AB-8148-264736246663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326FB5A9-1A79-47AB-8148-264736246663}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

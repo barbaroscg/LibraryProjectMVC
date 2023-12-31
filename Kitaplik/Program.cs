@@ -1,4 +1,4 @@
-using Kitaplik.Data;
+using Kitaplik.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Kitaplik.Migrations
+namespace Kitaplik.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class initMig : Migration
